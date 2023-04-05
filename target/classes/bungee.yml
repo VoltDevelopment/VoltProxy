@@ -1,3 +1,4 @@
 name: VoltProxy
+author: rodri
 version: '1.0-SNAPSHOT'
 main: me.rodri.proxy.VoltProxy
