@@ -1,2 +1,3 @@
-me\rodri\proxy\VoltProxy.class
+me\rodri\proxy\commands\DiscordCommand.class
 me\rodri\proxy\commands\PingCommand.class
+me\rodri\proxy\VoltProxy.class
