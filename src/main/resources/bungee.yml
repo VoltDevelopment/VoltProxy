@@ -1,0 +1,3 @@
+name: VoltProxy
+version: '${project.version}'
+main: me.rodri.proxy.VoltProxy
