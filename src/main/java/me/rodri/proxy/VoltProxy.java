@@ -2,6 +2,7 @@ package me.rodri.proxy;
 
 import me.rodri.proxy.commands.DiscordCommand;
 import me.rodri.proxy.commands.PingCommand;
+import me.rodri.proxy.commands.TwitterCommand;
 import me.rodri.proxy.listeners.PlayerListener;
 import net.md_5.bungee.api.ChatColor;
 import net.md_5.bungee.api.plugin.Plugin;
@@ -22,6 +23,7 @@ public final class VoltProxy extends Plugin {
         //Register Commands
         getProxy().getPluginManager().registerCommand(this, new PingCommand());
         getProxy().getPluginManager().registerCommand(this, new DiscordCommand());
+        getProxy().getPluginManager().registerCommand(this, new TwitterCommand());
 
 
         getProxy().getPluginManager().registerListener(this, new PlayerListener());
