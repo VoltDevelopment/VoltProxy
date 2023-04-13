@@ -9,8 +9,5 @@
         <module name="Proxy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="Proxy" target="1.8" />
-    </bytecodeTargetLevel>
   </component>
 </project>
